@@ -43,6 +43,10 @@ height:auto !important;
 min-height:600px;
 }
 
+#container{
+border-top:1px black solid;
+border-bottom:1px black solid;
+}
 
 #cours{
 text-align:center;
@@ -75,6 +79,7 @@ margin-left:325px;
 }
 
 .bouton{
+margin-top:5px;
 margin-right:0px;
 margin-left: 0px;
 padding:5px;
@@ -99,16 +104,46 @@ height:500px;
 }
 
 .slide{
-border:1px black solid;
-background-color:red;
+background:#f2f2f2;
+border-left:1px black solid;
+border-right:1px black solid;
+border-top:1px black solid;
 width:998px;
 height:498px;
 float:left;
 color:black;
-font-size:300px;
+
+/*font-size:300px;
+font-weight:bold;*/
+}               
+
+.vignette{
+height:150px;
+margin-left:10px;
+margin-top:10px;
+}            
+
+.titre{
+color:red;
+font-size:50px;
 font-weight:bold;
-text-align:center;
-}                           
+margin-bottom:10px;
+}
+
+.title_question{
+color:black;
+font-weight:bold;
+}
+
+#bouton_tester{
+background-image:url(images/fondbouton.png);
+padding:5px;
+margin:5px;
+margin-top:20px;
+border:1px black solid;
+}
+#sources{
+}
 		
 		
 #footer{
