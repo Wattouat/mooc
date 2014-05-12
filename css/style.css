@@ -113,6 +113,18 @@ min-height:400px;
 padding:20px;
 }
 
+#media p{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.titre{
+color:red;
+font-size:35px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
 #media h2 {
 margin-top:20px;
 margin-bottom:20px;
@@ -148,7 +160,6 @@ text-transform:uppercase;
 width:550px;
 height:100px;
 margin:auto;
-margin-left:325px;
 }
 
 .bouton{
@@ -176,6 +187,7 @@ height:500px;
 }
 
 .slide{
+overflow:scroll;
 background:#f2f2f2;
 border:1px black solid;
 width:998px;
@@ -193,12 +205,7 @@ margin-left:10px;
 margin-top:10px;
 }            
 
-.titre{
-color:red;
-font-size:50px;
-font-weight:bold;
-margin-bottom:10px;
-}
+
 
 .title_question{
 color:black;

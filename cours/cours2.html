@@ -5,7 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-		
+		<link rel="icon" href="../images/favicon.ico" />
+		<link href="../COPYING.txt" />
 	</head>
 	
 	<body>
@@ -18,17 +19,18 @@
 			<div id="menu">
 				<ul id="liens">
 					<li><a class="liens_menu" href="../index.html" title="Aller à l'accueil">Accueil</a></li>
-					<li><a class="liens_menu" href="../cours/cours1.html" title="Commencer les cours">Cours</a></li>
+					<li><a class="liens_menu" href="../cours/presentation.html" title="Commencer les cours">Cours</a></li>
 					<li><a class="liens_menu" target="_blank" href="http://mooc.politechnicart.net/logicielslibres/" title="Le Blog">Carnets de Mooc</a></li>
 					<li><a class="liens_menu" href="../biblio/biblio.html" title="Voir les sources du MOOC">Bibliographie/Sitographie</a></li>
-					<li><a class="liens_menu" href="https://github.com/Wattouat/mooc" title="Voir le GitHub du projet">GitHub</a></li>
-					<li><a class="liens_menu" href="http://mooclogicielslibres.forumactif.org/" title="acceder le forum">Forum</a></li>
+					<li><a class="liens_menu" target="_blank" href="https://github.com/Wattouat/mooc" title="Voir le GitHub du projet">GitHub</a></li>
+					<li><a class="liens_menu" target="_blank" href="http://mooclogicielslibres.forumactif.org/" title="acceder le forum">Forum</a></li>
 				</ul>
 			</div>
 		</div>
 		<div id="container">
 			<div id="menuleft">
 				<ul id="cours">
+					<li><a class="liens_menu_left"  href="../cours/presentation.html"> Presentation </a></li>
 					<li><a class="liens_menu_left"  href="../cours/cours1.html"> Cours 1 </a></li>
 					<li><a class="liens_menu_left" href="../cours/cours2.html"> Cours 2</a></li>
 					<li><a class="liens_menu_left" href="../cours/cours3.html"> Cours 3</a></li>
@@ -50,28 +52,35 @@
 					<div id="sliders">
 						<div class="slide">
 							<h1 class="titre">Introduction</h1>
-							<p>coucou voici la presentation gloubiboulga du cours n°1, aprés moultes galères! Pwet</p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/220px-Opensource.svg.png"/>
+							<p>
+								Dans ce cours, nous vous expliquerons les différences et les similitudes entre open source et logiciels libres. 
+								</br></br>
+							</p>
+								<h3>Exemples de logiciels open source :</h3> 
+							<p>
+								OpenOffice,
+								Apache, 
+								MySQL, ...
+							</p>
 						</div>
 						<div class="slide">
 							<h1 class="titre">Le cours</h1>
-							<iframe width="853" height="430" src="http://www.youtube.com/embed/2onsOFWme-Q?rel=0" frameborder="0" allowfullscreen></iframe>
+							<iframe width="853" height="400" src="http://www.youtube.com/embed/rGAbubfsnao?rel=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 						<div class="slide">
 						<h1 class="titre">Pour aller plus loin...</h1>
-							<a target="_blank"  href="https://www.youtube.com/watch?v=kNY2ZgmUy0g">
-								<img class="vignette" src="../images/vignettes/conf_richard_stall.png" title="Conférence Richard Stallman: Qu'est ce que le libre"> </img>
+							<a target="_blank"  href="http://opensource.org/osd">
+								<img class="vignette" src="../images/vignettes/module2/def_open.png"> </img>
 							</a>
-							<a target="_blank"  href="https://www.gnu.org/gnu/manifesto.fr.html">
-								<img class="vignette" src="../images/vignettes/manifeste_gnu.png" title="Manifeste Gnu"></img>
+							<a target="_blank"  href="http://www.cairn.info/revue-quaderni-2011-3-page-111.htm">
+								<img class="vignette" src="../images/vignettes/module2/opensource.png"></img>
 							</a>
-							<a target="_blank"  href="https://www.youtube.com/watch?v=kNY2ZgmUy0g">
-								<img class="vignette" src="../images/vignettes/conf_richard_stall.png"></img>
+							<a target="_blank"  href="http://www.gnu.org/philosophy/free-software-for-freedom.fr.html">
+								<img class="vignette" src="../images/vignettes/module2/open_logiciel.png"></img>
 							</a>
-							<a target="_blank"  href="https://www.gnu.org/gnu/manifesto.fr.html">
-								<img class="vignette" src="../images/vignettes/manifeste_gnu.png"></img>
-							</a>
-							<a target="_blank"  href="https://www.youtube.com/watch?v=kNY2ZgmUy0g">
-								<img class="vignette" src="../images/vignettes/conf_richard_stall.png"></img>
+							<a target="_blank"  href="http://www.gnu.org/philosophy/open-source-misses-the-point.html">
+								<img class="vignette" src="../images/vignettes/module2/pourquoi_open.png"></img>
 							</a>
 						</div>
 						<div class="slide">
@@ -79,38 +88,57 @@
 							<form name="quizz">
 								<div class="question">
 									<div class="texte">
-										<h2 class="title_question">Question 1</h2>
+										<h3 class="title_question">La principale différence entre logiciel libre et open source est :</h3>
 										<br>
-										<input type="radio" id="r1" name="q1" value="1" >1<br>
-										<input type="radio" id="r2" name="q1" value="0" >0<br>
-										<input type="radio" id="r3" name="q1" value="0" >0<br>
+										<input type="radio" id="r1" name="q1" value="1" >éthique<br>
+										<input type="radio" id="r2" name="q1" value="0" >fonctionnelle<br>
+										<input type="radio" id="r3" name="q1" value="0" >Le prix<br>
 									</div>  
 									<div class="texte">
-										<h2 class="title_question">Question 2</h2>
+										<h3 class="title_question">Les logiciels libres sont-ils forcément open source :</h3>
 										<br>
-										<input type="radio" id="r4" name="q2" value="0" >0<br>
-										<input type="radio" id="r5" name="q2" value="1" >1<br>
-										<input type="radio" id="r6" name="q2" value="0" >0<br>
+										<input type="radio" id="r4" name="q2" value="0" >non<br>
+										<input type="radio" id="r5" name="q2" value="1" >oui<br>
 									</div>  
 									<div class="texte">
-										<h2 class="title_question">Question 3</h2>
+										<h3 class="title_question">Les logiciels open source sont-ils forcément libres ? </h3>
 										<br>
-										<input type="radio" id="r7" name="q3" value="0" >0<br>
-										<input type="radio" id="r8" name="q3" value="1" >1<br>
-										<input type="radio" id="r9" name="q3" value="0" >0<br>
+										<input type="radio" id="r7" name="q3" value="0" >Oui<br>
+										<input type="radio" id="r8" name="q3" value="1" >Non<br>
 									</div>  
 									<div class="texte">
-										<h2 class="title_question">Question 4</h2>
+										<h3 class="title_question">Un logiciel open source doit être....</h3>
 										<br>
-										<input type="radio" id="r10" name="q4" value="0" >0<br>
-										<input type="radio" id="r11" name="q4" value="1" >1<br>
-										<input type="radio" id="r12" name="q4" value="0" >0<br>
+										<input type="radio" id="r10" name="q4" value="0" >gratuit<br>
+										<input type="radio" id="r11" name="q4" value="1" >redistribué librement et gratuitement<br>
+										<input type="radio" id="r12" name="q4" value="0" >contrôlé avant redistribution<br>
 									</div>  
 								</div>
 							</form>
-							<button id="bouton_tester" onclick="checker2();"> tester les reponses</button>
+							<button id="bouton_tester" onclick="checker2();">tester les reponses</button>
 						</div>
-						<div class="slide"><h1 class="titre">Correction</h1></div>
+						<div class="slide"><h1 class="titre">Correction</h1>
+							<h3>
+								La principale différence entre logiciel libre et open source est :
+							</h3>
+							<p>
+								éthique
+							</p>
+							<h3>
+								Les logiciels libres sont-ils forcément open source :
+							</h3>
+							<p>oui</p>
+							<h3>
+								Les logiciels open source sont-ils forcément libres ? 
+							</h3>
+							<p>Non certain logiciels open source ne garantissent pas les 4 libertés fondammentales du logiciel libre</p>
+							
+							<h3>Un logiciel open source doit être....</h3>
+							<p>redistribué librement et gratuitement</p>
+							<p>Un logiciel open source peut être copié et redistribué, à condition qu'il soit gratuit</p>
+							</br>
+							<h3>Rendez-vous sur le <a class="sito" href="http://mooclogicielslibres.forumactif.org/">forum</a> pour discuter de ce module</h3>
+						</div>
 					</div>
 				</div>
 				
@@ -170,8 +198,8 @@
 		</div>
 		<div class="push"></div>
 		 <div id="footer">
-			<p>MOOC créée par Marjorie Cormenier et Sarah Sergent</p>
-			<p> Licence ... </p>
+			<p> Copyright 2014 Marjorie Cormenier et Sarah Sergent </p>
+			<a class="sito" href="../COPYING.txt">GNU General Public License</a>
 		</div>
 	</body>
 </html>
